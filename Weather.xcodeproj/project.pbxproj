@@ -19,6 +19,9 @@
 		60ADD9661989CFDB0086A6BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94E1989CFDB0086A6BC /* UIKit.framework */; };
 		60ADD96E1989CFDB0086A6BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60ADD96C1989CFDB0086A6BC /* InfoPlist.strings */; };
 		60ADD9701989CFDB0086A6BC /* WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ADD96F1989CFDB0086A6BC /* WeatherTests.m */; };
+		6D04B9331AC1F84100F41859 /* LHWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D04B9321AC1F84100F41859 /* LHWViewController.m */; };
+		6D04B9361AC1F85800F41859 /* LHWCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D04B9351AC1F85800F41859 /* LHWCityModel.m */; };
+		6D04B9391AC2144700F41859 /* LHWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D04B9381AC2144700F41859 /* LHWDetailViewController.m */; };
 		AF207A5319F472D300FD95BF /* clear-day.png in Resources */ = {isa = PBXBuildFile; fileRef = AF207A4619F472D300FD95BF /* clear-day.png */; };
 		AF207A5419F472D300FD95BF /* clear-night.png in Resources */ = {isa = PBXBuildFile; fileRef = AF207A4719F472D300FD95BF /* clear-night.png */; };
 		AF207A5519F472D300FD95BF /* cloudy-night.png in Resources */ = {isa = PBXBuildFile; fileRef = AF207A4819F472D300FD95BF /* cloudy-night.png */; };
@@ -61,6 +64,12 @@
 		60ADD96B1989CFDB0086A6BC /* WeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherTests-Info.plist"; sourceTree = "<group>"; };
 		60ADD96D1989CFDB0086A6BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60ADD96F1989CFDB0086A6BC /* WeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherTests.m; sourceTree = "<group>"; };
+		6D04B9311AC1F84100F41859 /* LHWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHWViewController.h; sourceTree = "<group>"; };
+		6D04B9321AC1F84100F41859 /* LHWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWViewController.m; sourceTree = "<group>"; };
+		6D04B9341AC1F85800F41859 /* LHWCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHWCityModel.h; sourceTree = "<group>"; };
+		6D04B9351AC1F85800F41859 /* LHWCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWCityModel.m; sourceTree = "<group>"; };
+		6D04B9371AC2144700F41859 /* LHWDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHWDetailViewController.h; sourceTree = "<group>"; };
+		6D04B9381AC2144700F41859 /* LHWDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWDetailViewController.m; sourceTree = "<group>"; };
 		AF207A4619F472D300FD95BF /* clear-day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-day.png"; sourceTree = "<group>"; };
 		AF207A4719F472D300FD95BF /* clear-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-night.png"; sourceTree = "<group>"; };
 		AF207A4819F472D300FD95BF /* cloudy-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloudy-night.png"; sourceTree = "<group>"; };
@@ -135,6 +144,12 @@
 			children = (
 				60ADD9591989CFDB0086A6BC /* LHWAppDelegate.h */,
 				60ADD95A1989CFDB0086A6BC /* LHWAppDelegate.m */,
+				6D04B9311AC1F84100F41859 /* LHWViewController.h */,
+				6D04B9321AC1F84100F41859 /* LHWViewController.m */,
+				6D04B9371AC2144700F41859 /* LHWDetailViewController.h */,
+				6D04B9381AC2144700F41859 /* LHWDetailViewController.m */,
+				6D04B9341AC1F85800F41859 /* LHWCityModel.h */,
+				6D04B9351AC1F85800F41859 /* LHWCityModel.m */,
 				AF207A4519F472D300FD95BF /* images */,
 				60ADD95C1989CFDB0086A6BC /* Images.xcassets */,
 				60ADD9511989CFDB0086A6BC /* Supporting Files */,
@@ -302,6 +317,9 @@
 			files = (
 				60ADD95B1989CFDB0086A6BC /* LHWAppDelegate.m in Sources */,
 				60ADD9571989CFDB0086A6BC /* main.m in Sources */,
+				6D04B9391AC2144700F41859 /* LHWDetailViewController.m in Sources */,
+				6D04B9361AC1F85800F41859 /* LHWCityModel.m in Sources */,
+				6D04B9331AC1F84100F41859 /* LHWViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

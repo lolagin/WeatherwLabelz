@@ -10,6 +10,8 @@
 	<string>Weather</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>966876C146ACFA8B19AC923FB0DCD3E295065717</key>
+		<string>https://github.com/lolagin/20InchSpinnerz.git</string>
 		<key>C35BA87E81D9BAFC1636E0822328C01C7FFA32B7</key>
 		<string>https://github.com/lighthouse-labs/iOS-Student-Weather.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>Weather.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>966876C146ACFA8B19AC923FB0DCD3E295065717</key>
+		<string>../../..</string>
 		<key>C35BA87E81D9BAFC1636E0822328C01C7FFA32B7</key>
 		<string>../..</string>
 	</dict>
@@ -28,6 +32,14 @@
 	<string>C35BA87E81D9BAFC1636E0822328C01C7FFA32B7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>966876C146ACFA8B19AC923FB0DCD3E295065717</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
