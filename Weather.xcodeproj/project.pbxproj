@@ -22,6 +22,10 @@
 		6D04B9331AC1F84100F41859 /* LHWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D04B9321AC1F84100F41859 /* LHWViewController.m */; };
 		6D04B9361AC1F85800F41859 /* LHWCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D04B9351AC1F85800F41859 /* LHWCityModel.m */; };
 		6D04B9391AC2144700F41859 /* LHWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D04B9381AC2144700F41859 /* LHWDetailViewController.m */; };
+		6D04B93B1AC22E7300F41859 /* stupidStatue.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D04B93A1AC22E7300F41859 /* stupidStatue.png */; };
+		6D04B93D1AC2301400F41859 /* angst.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D04B93C1AC2301400F41859 /* angst.png */; };
+		6D04B9401AC2387500F41859 /* LHWModalInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D04B93F1AC2387500F41859 /* LHWModalInputViewController.m */; };
+		6D04B9421AC2714100F41859 /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D04B9411AC2714100F41859 /* warning.png */; };
 		AF207A5319F472D300FD95BF /* clear-day.png in Resources */ = {isa = PBXBuildFile; fileRef = AF207A4619F472D300FD95BF /* clear-day.png */; };
 		AF207A5419F472D300FD95BF /* clear-night.png in Resources */ = {isa = PBXBuildFile; fileRef = AF207A4719F472D300FD95BF /* clear-night.png */; };
 		AF207A5519F472D300FD95BF /* cloudy-night.png in Resources */ = {isa = PBXBuildFile; fileRef = AF207A4819F472D300FD95BF /* cloudy-night.png */; };
@@ -70,6 +74,11 @@
 		6D04B9351AC1F85800F41859 /* LHWCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWCityModel.m; sourceTree = "<group>"; };
 		6D04B9371AC2144700F41859 /* LHWDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHWDetailViewController.h; sourceTree = "<group>"; };
 		6D04B9381AC2144700F41859 /* LHWDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWDetailViewController.m; sourceTree = "<group>"; };
+		6D04B93A1AC22E7300F41859 /* stupidStatue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stupidStatue.png; path = ../stupidStatue.png; sourceTree = "<group>"; };
+		6D04B93C1AC2301400F41859 /* angst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = angst.png; path = ../angst.png; sourceTree = "<group>"; };
+		6D04B93E1AC2387500F41859 /* LHWModalInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHWModalInputViewController.h; sourceTree = "<group>"; };
+		6D04B93F1AC2387500F41859 /* LHWModalInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWModalInputViewController.m; sourceTree = "<group>"; };
+		6D04B9411AC2714100F41859 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
 		AF207A4619F472D300FD95BF /* clear-day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-day.png"; sourceTree = "<group>"; };
 		AF207A4719F472D300FD95BF /* clear-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-night.png"; sourceTree = "<group>"; };
 		AF207A4819F472D300FD95BF /* cloudy-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloudy-night.png"; sourceTree = "<group>"; };
@@ -146,6 +155,8 @@
 				60ADD95A1989CFDB0086A6BC /* LHWAppDelegate.m */,
 				6D04B9311AC1F84100F41859 /* LHWViewController.h */,
 				6D04B9321AC1F84100F41859 /* LHWViewController.m */,
+				6D04B93E1AC2387500F41859 /* LHWModalInputViewController.h */,
+				6D04B93F1AC2387500F41859 /* LHWModalInputViewController.m */,
 				6D04B9371AC2144700F41859 /* LHWDetailViewController.h */,
 				6D04B9381AC2144700F41859 /* LHWDetailViewController.m */,
 				6D04B9341AC1F85800F41859 /* LHWCityModel.h */,
@@ -190,6 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				AF207A4619F472D300FD95BF /* clear-day.png */,
+				6D04B93C1AC2301400F41859 /* angst.png */,
+				6D04B93A1AC22E7300F41859 /* stupidStatue.png */,
 				AF207A4719F472D300FD95BF /* clear-night.png */,
 				AF207A4819F472D300FD95BF /* cloudy-night.png */,
 				AF207A4919F472D300FD95BF /* cloudy.png */,
@@ -198,6 +211,7 @@
 				AF207A4C19F472D300FD95BF /* fog.png */,
 				AF207A4D19F472D300FD95BF /* partly-cloudy.png */,
 				AF207A4E19F472D300FD95BF /* rain.png */,
+				6D04B9411AC2714100F41859 /* warning.png */,
 				AF207A4F19F472D300FD95BF /* sleet.png */,
 				AF207A5019F472D300FD95BF /* snow.png */,
 				AF207A5119F472D300FD95BF /* Sunny.png */,
@@ -284,8 +298,11 @@
 			files = (
 				AF207A5919F472D300FD95BF /* fog.png in Resources */,
 				AF207A5C19F472D300FD95BF /* sleet.png in Resources */,
+				6D04B93B1AC22E7300F41859 /* stupidStatue.png in Resources */,
+				6D04B93D1AC2301400F41859 /* angst.png in Resources */,
 				AF207A5419F472D300FD95BF /* clear-night.png in Resources */,
 				AF207A5E19F472D300FD95BF /* Sunny.png in Resources */,
+				6D04B9421AC2714100F41859 /* warning.png in Resources */,
 				AF207A5819F472D300FD95BF /* degree.png in Resources */,
 				AF207A5619F472D300FD95BF /* cloudy.png in Resources */,
 				AF207A5719F472D300FD95BF /* default.png in Resources */,
@@ -318,6 +335,7 @@
 				60ADD95B1989CFDB0086A6BC /* LHWAppDelegate.m in Sources */,
 				60ADD9571989CFDB0086A6BC /* main.m in Sources */,
 				6D04B9391AC2144700F41859 /* LHWDetailViewController.m in Sources */,
+				6D04B9401AC2387500F41859 /* LHWModalInputViewController.m in Sources */,
 				6D04B9361AC1F85800F41859 /* LHWCityModel.m in Sources */,
 				6D04B9331AC1F84100F41859 /* LHWViewController.m in Sources */,
 			);
