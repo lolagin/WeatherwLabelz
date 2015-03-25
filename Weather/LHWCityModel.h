@@ -12,6 +12,7 @@
 @property (strong, nonatomic) NSString *name;
 @property (assign, nonatomic) NSInteger temperature;
 @property (strong, nonatomic) UIImage *image;
+-(instancetype)initCustomName:(NSString *)name Temperature:(NSInteger)temp Image:(UIImage *)image;
 
 
 +(instancetype)initChicago;

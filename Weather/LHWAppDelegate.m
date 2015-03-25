@@ -10,29 +10,32 @@
 #import "LHWViewController.h"
 
 @implementation LHWAppDelegate{
-    NSArray *cityArray;
+    NSMutableArray *cityArray;
     NSInteger selectedCity;
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
+    self.window.tintColor = [UIColor redColor];
     
     UINavigationController *firstTabItem = [[UINavigationController alloc]initWithRootViewController:[LHWViewController cityViewWithCity:[LHWCityModel initCardiff]]];
-
     UINavigationController *secondTabItem = [[UINavigationController alloc]initWithRootViewController:[LHWViewController cityViewWithCity:[LHWCityModel initChicago]]];
-        UINavigationController *thirdTabItem = [[UINavigationController alloc]initWithRootViewController:[LHWViewController cityViewWithCity:[LHWCityModel initMoscow]]];
-        UINavigationController *fourthTabItem = [[UINavigationController alloc]initWithRootViewController:[LHWViewController cityViewWithCity:[LHWCityModel initPhnomPenh]]];
-        UINavigationController *fifthTabItem = [[UINavigationController alloc]initWithRootViewController:[LHWViewController cityViewWithCity:[LHWCityModel initPortland]]];
+
+    
+//        UINavigationController *thirdTabItem = [[UINavigationController alloc]initWithRootViewController:[LHWViewController cityViewWithCity:[LHWCityModel initMoscow]]];
+//        UINavigationController *fourthTabItem = [[UINavigationController alloc]initWithRootViewController:[LHWViewController cityViewWithCity:[LHWCityModel initPhnomPenh]]];
+//        UINavigationController *fifthTabItem = [[UINavigationController alloc]initWithRootViewController:[LHWViewController cityViewWithCity:[LHWCityModel initPortland]]];
     
     
-    cityArray = @[firstTabItem, secondTabItem, thirdTabItem, fourthTabItem, fifthTabItem];
+//   cityArray = [NSMutableArray arrayWithArray:@[firstTabItem, secondTabItem, thirdTabItem, fourthTabItem, fifthTabItem]];
+    cityArray = [NSMutableArray arrayWithArray:@[firstTabItem, secondTabItem]];
     selectedCity = 0;
 
     UITabBarController *tabBarController = [[UITabBarController alloc]init];
     tabBarController.viewControllers = cityArray;
     tabBarController.selectedViewController = cityArray[selectedCity];
+    
     self.window.rootViewController = tabBarController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
